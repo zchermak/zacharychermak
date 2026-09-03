@@ -3,12 +3,64 @@
 <head>
     <title>Zachary Chermak</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
         h1 {
             color: red;
+            font-size: 3em;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        .bio-section {
+            margin-top: 60px;
+            padding: 40px;
+            background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+            border-left: 4px solid red;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .bio-section h2 {
+            color: red;
+            font-size: 2em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .bio-section p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px;
         }
     </style>
 </head>
 <body>
-    <h1>Zachary Chermak</h1>
+    <main>
+        <h1>Zachary Chermak</h1>
+        
+        <section class="bio-section">
+            <h2>Bio</h2>
+            <p>
+                <!-- Your biography goes here. Add your personal or professional background, interests, and achievements. -->
+            </p>
+        </section>
+    </main>
 </body>
 </html>
